@@ -46,7 +46,8 @@ h2{
 }
 
 main{
-    width: 8.5in;
+    width: 80%;
+    max-width: 8.5in;
     min-height: 11in;
     margin: 5rem auto;
     border: 0.5px solid black;
@@ -78,4 +79,29 @@ a{
 
 a:hover, a:focus{
     text-decoration: underline;
+}
+
+/* margins */
+#seperator{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.section{
+    padding-top: 1rem;
+}
+
+@media (max-width: 675px) {
+    .side-text-container {
+        flex-direction: column;
+    }
+
+    .dates{
+        margin-top: 0rem;
+        margin-bottom: 0.3rem;
+    }
+    
+    #last-thing-on-page{
+        padding-bottom: 3rem;
+    }
 }
