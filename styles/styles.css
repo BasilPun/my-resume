@@ -1,9 +1,12 @@
 *{
+    margin: 0;
+    padding: 0;
+}
+
+html{
     font-size: 11px;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.2;
-    margin: 0;
-    padding: 0;
 }
 
 :root {
@@ -53,6 +56,7 @@ main{
 
 h3{
     margin-top: 0.8rem;
+    font-size: 1rem;
 }
 
 .first-child{
@@ -66,4 +70,12 @@ li{
 .side-text-container{
     display:flex;
     justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+    text-decoration: underline;
 }
